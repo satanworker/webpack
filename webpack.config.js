@@ -16,18 +16,19 @@ module.exports = {
       'es6-shim',
       'es6-promise',
       'reflect-metadata',
-      'zone.js/dist/zone-microtask',
-      'zone.js/dist/long-stack-trace-zone',
+      'zone.js/dist/zone.min.js',
       // Angular2
-      'angular2/platform/browser',
-      'angular2/platform/common_dom',
-      'angular2/core',
-      'angular2/router',
-      'angular2/http',
-      // RxJS
-      'rxjs',
-      // Other
-      'angular2-jwt'
+          'angular2/platform/browser',
+          'angular2/platform/common_dom',
+          'angular2/core',
+          'angular2/router',
+          'angular2/http',
+          // RxJS
+          'rxjs',
+          // Other
+        'angular2-jwt',
+        'angularfire2',
+        'firebase'
     ],
     'app': [
       './src/index'

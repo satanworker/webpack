@@ -8,8 +8,7 @@
     "sourceMap": true
   },
   "files": [
-    "typings/tsd.d.ts",  
-    "src/welcome/welcome.component.ts"
+    "typings/tsd.d.ts"
   ],
     "filesGlob": [
     "./src/**/*.ts",
